@@ -1,0 +1,136 @@
+.cajaAbout{
+  background-color: rgba(22, 22, 22, 0.6);
+  border:1px solid grey;
+  border-radius: .5rem;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 120px 1rem 0 1rem;
+  padding: .5rem .5rem;
+  width: auto;
+}
+
+.imgAbout{
+  width: 120px;
+  }
+.imgP{
+  margin: 0;
+  padding: .5rem 0;
+}
+.divCenter{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: .5rem; */
+}
+.centrado{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width:850px){
+         .cajaAbout{
+          margin-top: 100px;
+        }
+}
+@media screen and (max-width:760px){
+         .divCenter{
+           border-top: 1px solid grey;
+           border-bottom: 1px solid grey;
+           display: flex;
+
+          }
+          .cajaAbout{
+          flex-direction: column;
+          justify-content: center;
+          }
+}
+
+.imgEdit{
+  /* position: absolute;
+  right: 1.5rem;
+  top: 445px; */
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .8);
+}
+.imgEdit_titulo{
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .8);
+  /* background: red; */
+}
+.caja_about_titulo{
+  position: relative;
+  height: 100%;
+  width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+.btnBgEdit{
+  position: absolute;
+  top: 5px;
+  right: 0%;
+  fill: grey;
+  margin-right: .5rem;
+}
+.btn_edit_titulo{
+  right: -12px;
+  }
+@media screen and (min-width:759px){
+         .divCenter{
+          border-left: 1px solid grey;
+          border-right: 1px solid grey;
+        }
+        .cajaAbout{
+          flex-direction: row;
+        }
+        .btnBgEdit{
+          top: -2px;
+        }
+        .btn_edit_titulo{
+right: -4px;
+}
+}
+
+
+
+.btnBgEdit:hover{
+  fill: blue;
+  background-color:rgb(190, 187, 187);
+}
+#inputP {
+  width: 500px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: initial;
+}
+.spanTitleModal{
+  color: grey;
+  font-size: 1rem;
+  font-style: italic;
+}
+.modal_about_titulo{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.madal_label_edit{
+  width: 3.5rem;
+  height: 1.5rem;
+  margin: .3rem 0;
+  color: black;
+}
+.caja_titulo{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caja_sobre_mi_vida{
+  position: relative;
+}

@@ -1,0 +1,257 @@
+
+{
+   "nombre": "Julio Alberto Lazarte",
+   "ubicacion": "Tucumán, Argentina",
+   "edad": 44,
+   "foto":"../../../assets/julio.png",
+   "titulo":"Full Stack Developer Jr",
+   "historia":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse ratione at ipsam assumenda officia voluptas quo illum tenetur delectus velit architecto quis vel, dignissimos dolorem corporis quidem, sed animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse ratione at ipsam assumenda officia voluptas quo illum tenetur delectus velit architecto quis vel, dignissimos dolorem corporis quidem, sed animi!",
+
+   "education":[
+  {
+    "id":1,
+   "school":"Argentina Programa #YO-PROGRAMO",
+   "title":"Full Stack Developer Jr",
+   "img":"https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/sliderimage1/1662441043/banner-ok-argentina-programa.jpg",
+   "alt":"logo Argentina Programa",
+   "duracion":9,
+   "start":"2022",
+   "end":"2023",
+   "city":"Online",
+   "estado":{
+    "completado":false,
+    "enCurso":true,
+    "porcentaje":""
+   }
+  }
+   ,
+  {
+    "id":2,
+   "school":"ALURA LATAM  -  Oracle Next Education",
+   "title":"Front End Developer",
+   "img":"https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg",
+   "alt":"logo_alura_latam",
+   "duracion":6,
+   "start":"2022",
+   "end":"2023",
+   "city":"Online",
+   "estado":{
+    "completado":false,
+    "enCurso":true,
+    "porcentaje":""
+   }
+   }
+   ,
+  {
+   "id":3,
+   "school":"UNT - Universidad Nacional de Tucumán",
+   "title":"Ingeniería Química",
+   "img":"https://campus5.unt.edu.ar/pluginfile.php/30616/mod_label/intro/Logo-AH-01.jpg",
+   "alt":"logo UNT",
+   "duracion":72,
+   "start":"2003",
+   "end":"2008",
+   "city":"TUCUMAN",
+   "estado":{
+    "completado":false,
+    "enCurso":false,
+    "porcentaje":"80%"
+   }
+  }
+   ,
+  {
+    "id":4,
+    "school":"SEMINARIO MAYOR ARQUIDIOCESANO",
+    "title":"Profesor de FILOSOFIA",
+    "img":"https://yt3.ggpht.com/ytc/AMLnZu8qHBWxnwAc--pPrRH1evsbnH58LPOF3Q1ShHnL=s176-c-k-c0x00ffffff-no-rj",
+    "alt":"logo SEMINARIO MAYOR",
+    "duracion":48,
+    "start":"1998",
+    "end":"2002",
+    "city":"TUCUMAN",
+    "estado":{
+      "completado":true,
+      "enCurso":false,
+      "porcentaje":""
+     }
+  }
+  ,
+  {
+    "id":5,
+    "school":"INSTITUTO TECNICO LORENZO MASSA",
+    "title":"Técnico ELECTRO-MECANICO",
+    "img":"https://app.aulica.com.ar/uploads/29/imgEmpresa/00000196Juqjw.png",
+    "alt":"logo LORENZO MASSA",
+    "duracion":72,
+    "start":"1990",
+    "end":"1996",
+    "city":"TUCUMAN",
+    "estado":{
+      "completado":true,
+      "enCurso":false,
+      "porcentaje":""
+     }
+  }
+]
+,
+"programacion":[
+{
+  "program":"JS",
+  "porcentaje":"65%"
+}
+,
+{
+  "program":"HTML",
+  "porcentaje":"80%"
+}
+,
+{
+  "program":"CSS",
+  "porcentaje":"90%"
+}
+,
+{
+  "program":"MySQL",
+  "porcentaje":"40%"
+}
+,
+{
+  "program":"ANGULAR",
+  "porcentaje":"60%"
+}
+,
+{
+  "program":"GitHub",
+  "porcentaje":"80%"
+}
+,
+{
+  "program":"BOOTSTRAP",
+  "porcentaje":"80%"
+}
+]
+,
+"idiomas":[
+  {
+"lengua":"Ingles",
+"porcentaje":"50%"
+  },
+  {
+"lengua":"Italiano",
+"porcentaje":"60%"
+  }
+],
+  "works":[
+    {
+      "id":6,
+      "empresa":"Ministerio de Educación",
+      "puesto":"Docente",
+      "tarea":"Profesor de Filosofía.",
+      "start":"2015",
+      "end":"2022",
+      "city":"TUCUMAN"
+    }
+    ,
+    {
+      "id":5,
+      "empresa":"Prelatura de Cafayate",
+      "puesto":"Administrador",
+      "tarea":"Tareas generales administrativas y técnicas.",
+      "start":"2011",
+      "end":"2014",
+      "city":"Sta. María - CATAMARCA"
+    }
+    ,
+    {
+      "id":4,
+      "empresa":"Empresa familiar",
+      "puesto":"Administrativo",
+      "tarea":"Tareas generales administrativas y técnicas.",
+      "start":"2006",
+      "end":"2010",
+      "city":"TUCUMAN"
+    }
+    ,
+    {
+      "id":3,
+      "empresa":"Cia. Azucarera Los Balcanes",
+      "puesto":"Asistente de fabricación",
+      "tarea":"Control del proceso de fabricación de azucar.",
+      "start":"2004",
+      "end":"2007",
+      "city":"La Florida - TUCUMAN"
+    }
+    ,
+    {
+      "id":2,
+      "empresa":"Cia. Azucarera Los Balcanes",
+      "puesto":"Químico",
+      "tarea":"Químico de control de calidad de azucar tipo A.",
+      "start":"2004",
+      "end":"2007",
+      "city":"La Florida - TUCUMAN"
+    }
+    ,
+    {
+    "id":1,
+    "empresa":"Laboratorio Monjes Benedictinos",
+    "puesto":"Técnico",
+    "tarea":"Mantenimiento en laboratorio de fitoterápicos y cremas.",
+    "start":"2002",
+    "end":"2003",
+    "city":"El Siambon - TUCUMAN"
+  }
+]
+,
+"frases":[
+  {
+"educacion":"Todo aquello que el hombre ignora no existe para él. Por eso el universo de cada uno se resume al tamaño de su saber",
+"educacionAutor":"Albert Einstein",
+"experiencia":"La única forma de hacer un gran trabajo es amando lo que haces",
+"experienciaAutor":"Steve Jobs",
+"programacion":"No te preocupes si funciona bien. Si todo estuviera correcto, serías despedido de tu trabajo",
+"programacionAutor":"Ley de Mosher de la ingeniería del Software",
+"idiomas":"Los límites de mi idioma son los límites de mi mundo",
+"idiomasAutor":"Ludwig Wittgenstein",
+"proyectos":"Estoy convencido de que la mitad de lo que separa a los emprendedores exitosos de los que no triunfan es la perseverancia.",
+"proyectosAutor":"Steve Jobs"
+  }
+],
+  "imgArentinaPrograma":"../../../assets/redes/imgArgentinaPrograma.png",
+  "proyectos":[
+   {
+    "id":1,
+    "proyecto": "Mi Portafolio",
+    "alt":"portafolio_julio_Lazarte",
+    "descripcion": "Algunos aspectos sobre mi vida laboral y académica (curriculum vitae)",
+    "fecha":"2022-09-01",
+    "img": "../../../assets/imgPortafolio.png",
+    "imgLenguajes": "../../../assets/lenguajePortafolio.png",
+    "url": "https://juliolaz.github.io/portfolioFrontEnd"
+  }
+  ,
+   {
+    "id":2,
+    "proyecto": "El Ahorcadito",
+    "alt":"ahorcadito_julio_Lazarte",
+    "descripcion": "Juego para adivinar palabras según lineamientos de proyecto",
+    "fecha":"2022-09-01",
+    "img": "../../../assets/imghorcadito.png",
+    "imgLenguajes": "../../../assets/lenguajeAhorcadito.png",
+    "url": "https://juliolaz.github.io/juego-ahorcadito"
+  }
+  ,
+  {
+    "id":3,
+    "proyecto": "Encriptador",
+    "alt":"encriptador_julio_Lazarte",
+    "descripcion": "Encripta frases según lineamientos de proyecto",
+    "fecha":"2022-09-01",
+    "img": "../../../assets/imgEncriptador.png",
+    "imgLenguajes": "../../../assets/lenguajeEncriptador.png",
+    "url": "https://juliolaz.github.io/"
+
+   }
+  ],
+  "miHistoria":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eos numquam, magni debitis reiciendis praesentium, tempore error, quae aperiam ipsa quasi ab ipsam a soluta. Expedita quisquam officiis eos non."
+}

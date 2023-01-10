@@ -1,0 +1,67 @@
+.imgArgProg{
+  max-width: 320px;
+  margin-top: .2rem;
+}
+.imgArgProg:hover{
+  border-radius: .5rem;
+  background: rgb(92, 127, 199);
+}
+nav{
+  position:fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+@keyframes pulso{
+  0%{
+    color:rgb(199, 199, 242);
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1);
+    color:rgb(91, 91, 122);
+  }
+  }
+  .pulso{
+    font-size: 1.5rem;
+     animation: pulso 1.5s linear infinite;
+ }
+
+  .navBarMy{
+  align-items: center;
+  background-image: url(../../../assets/fondo.jpg);
+  background-size: cover;
+  border-bottom:2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: calc(100vw - 15px); */
+}
+
+@media screen and (min-width:850px){
+      .navBarMy{
+        align-items: center;
+        border-bottom:2px solid grey;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        .imgArgProg{
+          max-width: 320px;
+          margin: .5rem .5rem;
+        }
+}
+.yoProg{
+  font-size: 2rem;
+}
+.centrar{
+  display: flex;
+  justify-content: center;
+}
+#cajaRedesLogin{
+display: flex;
+}
